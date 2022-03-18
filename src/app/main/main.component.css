@@ -1,0 +1,114 @@
+* {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    font-family: Georgia, "Arial", Times, serif;
+    font-size: 14px;
+}
+
+.container-fluid {
+    padding: 0 20px !important;
+}
+
+.search {
+    margin-top: 12px;
+    margin-right: 10px;
+}
+
+.navbar-brand {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.add-new-student {
+    cursor: pointer;
+    font-size: larger;
+    border-style: solid;
+    border-radius: 10px;
+
+    margin-top: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #276ed8;
+    padding: 30px 0;
+}
+
+.modal-header .close {
+    margin-top: -20px;
+}
+
+.table-wrapper {
+    margin: 10px 70px 70px;
+    box-shadow: 0px 35px 50px rgba(0, 0, 0, 0.2);
+}
+
+.fl-table {
+    border-radius: 5px;
+    font-size: 12px;
+    font-weight: normal;
+    border: none;
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 100%;
+    white-space: nowrap;
+    background-color: white;
+}
+
+.fl-table td,
+.fl-table th {
+    text-align: center;
+    padding: 8px;
+}
+
+.fl-table td {
+    border-right: 1px solid #f8f8f8;
+    font-size: 15px;
+}
+
+.fl-table thead th {
+    color: #ffffff;
+    background: #6aabe7;
+}
+
+.fl-table thead th:nth-child(odd) {
+    color: #ffffff;
+    background: #19db63;
+}
+
+.fl-table tr:nth-child(even) {
+    background: #f8f8f8;
+}
+
+.stud-elements:hover {
+    color: #c20e1d;
+    box-shadow: 0 50px 5px rgba(0, 0, 0, 0.15) inset;
+}
+
+.td-student {
+    font-weight: 200;
+}
+
+.navbar-header {
+    padding-left: 10px;
+}
+
+.navbar-right {
+    padding-right: 30px;
+}
+
+.container-close-button {
+    padding-bottom: 13px;
+    margin-bottom: 13px;
+}
+
+#searchName {
+    width: 160px;
+}
